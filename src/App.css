@@ -1,0 +1,53 @@
+.container{
+    background-color: grey;
+    display: grid;
+    row-gap: 10px;
+    padding: 2em;
+   
+}
+.app__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.app__div-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.app__btn{
+    width: 100%;
+    max-width: 97%;
+    font-size: 1.1em;
+    padding: 0.5em;
+    border: none;
+    background-color: rgba(10, 10, 10, 0.932);
+    color: white;
+    border-radius: 0.6em;
+    margin-top: 1em;     
+    transition: transform 0.33s; 
+
+}
+.app__btn:hover{
+    background-color: rgba(210, 210, 210, 0.865);   
+    color: black;     
+}
+.app__btn:active{
+    transform: scale(0.94);
+    
+}
+
+
+.app__userCard-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: grey; */
+    gap: 2em ;
+    padding: 0em 0 1em 0;
+    margin-top: 2em;
+}

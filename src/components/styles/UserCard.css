@@ -1,0 +1,55 @@
+.userCard{
+    width: 100%;
+    max-width: 14em;    
+    background-color: rgba(217, 217, 217, 0.926);
+    border-radius: 0.5em;
+    padding: 1em;
+       
+    
+}
+.userCard__title{
+    display: flex;
+    justify-content: center;
+}
+.userCard__info{
+    display: grid;
+    gap: 0.5em;
+    
+}
+.userCard__info__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+.userCard__info__label{
+    padding-left: 0.3em;
+}
+.userCard__btn-trash{
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1em;
+    margin: 0.5em 0.5em 0 0.5em;
+    background-color: rgba(252, 53, 53, 0.689);
+    color: black;   
+    transition: transform 0.33s;  
+    
+}
+
+.userCard__btn-trash:active{
+    transform: scale(0.94);
+}
+
+.userCard__btn-edit{
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1em;
+    margin: 0.5em 0.5em 0 0.5em;
+    background-color: rgba(106, 190, 251, 0.87);
+    transition: transform 0.33s; 
+    color: white;
+    
+}
+
+.userCard__btn-edit:active{
+    transform: scale(0.94);
+}
