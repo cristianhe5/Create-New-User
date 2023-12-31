@@ -38,7 +38,7 @@ const useCrud = (baseUrl) => {
     //UPDATE
     const updateApi = (path, id, data) => {
         const url = `${baseUrl}${path}/${id}/` 
-        axios.patch(url,data)
+        axios.put(url,data)
         .then(res => { 
             console.log(res.data)
             setInfoApi(infoApi.map( e => e.id === id ? res.data : e))//le paso res.data si lo encontro por su id, va actualizar ese elemento con los datos nuevos que le pase
