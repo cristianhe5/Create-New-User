@@ -7,7 +7,7 @@ import UserCard from './components/UserCard'
 function App() {
   const [infoUpdate, setInfoUpdate] = useState()
   const [isDisable, setIsDisable] = useState(true)// si es false se desactiva la clase y se muestra si es true 
-  const url = 'https://users-crud.academlo.tech'
+  const url = 'https://usercrud-dev-rdbf.4.us-1.fl0.io'
   const [users, getUsers, createUsers, delateUsers, updateUsers ] = useCrud(url)  
 
   useEffect(() => {
